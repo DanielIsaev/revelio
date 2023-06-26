@@ -59,7 +59,7 @@ Just supply the top level domain you wish to scan, and revelio will find all it'
 python3 revelio.py example.org                                                       
 ```                                       
 
-After about 5 min it should be done, the more cores you have the better though.                                                                                           
+After about 5 min it should be done, the more CPU cores you have the better though.                                                                                           
 
 
 ## Contributing                           
