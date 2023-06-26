@@ -5,7 +5,9 @@ As the name suggests, it reveals subdomains, verifies they are alive, takes scre
 checks for potential subdomain takeovers, and finally it pulls archive data fromthe wayback machine for each subdomain.                                                         
 
 
-Revelio combines the following GO tools:                                                                                                                                     
+
+Revelio combines the following GO tools:                                                                                                                                  
+
 
 <>  subfinder     https://github.com/projectdiscovery/subfinder (requires GO V1.19 and higher)                                                                            
 <>  assetfinder   https://github.com/tomnomnom/assetfinder                                                                                                                
@@ -18,11 +20,14 @@ Revelio combines the following GO tools:
                                                                                                                                                                 
 Make sure you have all these tools installed, and you can find them on the command line.                                                                                  
 
+
                                                                                                                                                                       
 Also, revelio uses the 'colorama' python package, if for some reason you get 'ModuleNotFound'                                                                             
 error please use pip to install it, (i use python 3.11 and i didnt have to install it manually,                                                                           
 running a clean env with no installs also works for me) If you dont want to install colorama                                                                              
 on your system, you can spin off an env and install it there, then delete it:)                                                                                            
+
+
                                                                                                                                                                        
                                           
 P.S Shoutout to Heath Adams for the idea!                                            
