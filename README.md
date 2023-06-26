@@ -2,7 +2,8 @@
 
 Revelio is a Python tool for web pentesting.                                                                                                        
 As the name suggests, it reveals subdomains, verifies they are alive, takes screenshots,                                                                               
-checks for potential subdomain takeovers, and finally it pulls archive data fromthe wayback machine for each subdomain.                                                          
+checks for potential subdomain takeovers, and finally it pulls archive data fromthe wayback machine for each subdomain.                                                         
+
 
 Revelio combines the following GO tools:                                                                                                                                     
 
@@ -13,6 +14,7 @@ Revelio combines the following GO tools:
 <>  waybackurls   https://github.com/tomnomnom/waybackurls                                                                                                                
 <>  gowitness     https://github.com/sensepost/gowitness                                                                                                                  
                                           
+
                                                                                                                                                                 
 Make sure you have all these tools installed, and you can find them on the command line.                                                                                  
 
