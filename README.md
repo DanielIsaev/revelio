@@ -34,8 +34,8 @@ P.S Shoutout to Heath Adams for the idea!
                                                                                                                                                                           
 
 ## Installation                                                                      
-                                          
-Just copy the script to your current working directory.                                                                                                                   
+
+Once you have all the above tools installed, Just copy the script to your current working directory.                                                                                                                   
 
 ```bash                                   
 wget https://github.com/DanielIsaev/revelio/revelio.py                                                                                                                    
