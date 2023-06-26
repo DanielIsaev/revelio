@@ -16,6 +16,7 @@ except IndexError:
     sys.exit()
 
 def sigint_handler(signal, frame):
+    os.system(f'rm -rf {domain}')
     sys.exit(0)
 
 signal.signal(signal.SIGINT, sigint_handler)
