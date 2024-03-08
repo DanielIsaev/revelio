@@ -38,17 +38,9 @@ P.S Shoutout to Heath Adams for the idea!
 Once you have all the above tools installed, Just copy the script to your current working directory.                                                                                                                   
 
 ```bash                                   
-wget https://github.com/DanielIsaev/revelio/revelio.py                                                                                                                    
-```                                       
-
-chmod it.                                 
-
-```bash                                   
-chmod +x revelio.py                       
-```                                       
-
-And you should be good to go.                                                        
-
+git clone https://github.com/DanielIsaev/revelio; cd revelio
+pip install -r requirements.txt
+```                                                                          
 
 ## Usage                                  
 
@@ -59,7 +51,7 @@ Just supply the top level domain you wish to scan, and revelio will find all it'
 python3 revelio.py example.org                                                       
 ```                                       
 
-After about 5 min it should be done, the more CPU cores you have the better though.                                                                                           
+After about 5 min it should be done, the more CPU cores you have the better though.                 
 
 
 ## Contributing                           
