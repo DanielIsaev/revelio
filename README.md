@@ -26,10 +26,7 @@ Revelio combines the following GO tools:
                                           
 
                                                                                                                                                                 
-Make sure you have all these tools installed, and you can find them on the command line.                                                                                  
-
-                                                                                                                                                                      
-Also, revelio uses the `colorama` python package, if you get `ModuleNotFound` error please use pip to install it, (i use python 3.11 and i didnt have to install it manually, running a clean env with no installs also works for me) If you dont want to install colorama on your system, you can spin off an env and install it there, then delete it:) 
+Make sure you have all these tools installed, and you can find them on the command line. Furthermore, revelio uses the `colorama` module for colored output, If you dont want to install it on your system, I recommend setting an env and installing it there. 
                                           
 P.S Shoutout to Heath Adams for the idea!                                            
                                                                                                                                                                           
