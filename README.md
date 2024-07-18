@@ -53,7 +53,7 @@ sudo cp ~/go/bin/waybackurls /usr/local/bin
 
 This should get you all the core tools used be revelio.
 
-At this point you can clone the repo to you machine:
+At this point you can clone the repo to you machine and install the requirements:
 
 ```bash                                   
 git clone https://github.com/DanielIsaev/revelio; cd revelio
