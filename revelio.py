@@ -37,7 +37,6 @@ def print_banner():
 print_banner()
 
 # Create the output directory tree
-print(f'{Fore.BLUE}[+] {Fore.WHITE}Bulding output directory layout')
 root_dir = os.path.join(os.getcwd(), domain)
 if not os.path.exists(root_dir):
     os.mkdir(root_dir)
