@@ -74,10 +74,12 @@ Just supply the top level domain you wish to scan, and revelio will find all it'
 (Make sure it fits the scope of your pentest)                                        
 
 ```bash                                   
-python3 revelio.py example.org                                                       
+python3 revelio.py <domain>                                                       
 ```                                       
 
-After about 5 min it should be done, the more CPU cores you have the better though.                 
+Here is an example: 
+
+
 
 
 ## Contributing                           
