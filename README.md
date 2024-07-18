@@ -92,14 +92,6 @@ Here is for example, the HTML files revelio manged to find:
 ![ext](https://github.com/DanielIsaev/revelio/blob/main/img/ext_output.png)
 
 
-## Contributing                           
+## License
 
-Pull requests are welcome. For major changes, please open an issue first                                                                                                  
-to discuss what you would like to change.                                            
-
-Please make sure to update tests as appropriate.                                     
-
-
-## Lets link up!                          
-
-You can always reach me on my [Linkedin](https://www.linkedin.com/in/daniel-isaev-757593228/)  
+This project is licensed under the [MIT License](https://opensource.org/license/mit) so feel free to customize it further to fit your specific project details.
