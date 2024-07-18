@@ -9,7 +9,9 @@ The benefit with using Revelio is that it utilizes multi-threading in order to r
 - Locates and verifies subdomains.
 - Takes a screenshot of each domain.
 - Checks for potential subdomain takeovers.
-- Pulls archive data from the wayback machine for each subdomain
+- Pulls archive data from the wayback machine for each subdomain.
+- Uses multi-threading for concurrency.
+- Saves the resulsts in a structured directory tree.
 
 ## Integrated Tools
 
