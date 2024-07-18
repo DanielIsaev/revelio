@@ -77,9 +77,19 @@ Just supply the top level domain you wish to scan, and revelio will find all it'
 python3 revelio.py <domain>                                                       
 ```                                       
 
-Here is an example: 
+Here is an example usage: 
+
+![example](https://github.com/DanielIsaev/revelio/blob/main/img/example.png)
 
 
+This produces the following directory tree for the output:
+
+![tree](https://github.com/DanielIsaev/revelio/blob/main/img/output_tree.png)
+
+
+Here is for example, the HTML files revelio manged to find:
+
+![ext](https://github.com/DanielIsaev/revelio/blob/main/img/ext_output.png)
 
 
 ## Contributing                           
