@@ -1,41 +1,40 @@
 # Revelio
 
-Revelio is a Python tool for web pentesting.                                                                                                        
-As the name suggests, it reveals subdomains, verifies they are alive, takes screenshots,                                                                               
-checks for potential subdomain takeovers, and finally it pulls archive data from the wayback machine for each subdomain.                                                         
+Revelio is a Python script which acts as a wrapper around a few tools used to enumerate a target website. 
+The benefit with using Revelio is that it uses multi-threading in order to run the tools concurrently, while saving the output in a structured directory layout.
+                                                      
 
+## Features
 
+- Locates and verifies subdomains.
+- Takes a screenshot of each domain.
+- Checks for potential subdomain takeovers.
+- Pulls archive data from the wayback machine for each subdomain
+
+## Integrated Tools
 
 Revelio combines the following GO tools:                                                                                                                                  
 
-
-<>  subfinder     https://github.com/projectdiscovery/subfinder (requires GO V1.19 and higher)                                                                            
-<>  assetfinder   https://github.com/tomnomnom/assetfinder                                                                                                                
-<>  httprobe      https://github.com/tomnomnom/httprobe                                                                                                                   
-<>  subjack       https://github.com/haccer/subjack                                                                                                                       
-<>  waybackurls   https://github.com/tomnomnom/waybackurls                                                                                                                
-<>  gowitness     https://github.com/sensepost/gowitness                                                                                                                  
+-  [subfinder](https://github.com/projectdiscovery/subfinder) (requires GO V1.19 and higher)
+-  [assetfinder](https://github.com/tomnomnom/assetfinder)
+-  [httprobe](https://github.com/tomnomnom/httprobe)
+-  [subjack](https://github.com/haccer/subjack)                                                                                                                       
+-  [waybackurls](https://github.com/tomnomnom/waybackurls)
+-  [gowitness](https://github.com/sensepost/gowitness)
                                           
 
                                                                                                                                                                 
 Make sure you have all these tools installed, and you can find them on the command line.                                                                                  
 
-
                                                                                                                                                                       
-Also, revelio uses the 'colorama' python package, if for some reason you get 'ModuleNotFound'                                                                             
-error please use pip to install it, (i use python 3.11 and i didnt have to install it manually,                                                                           
-running a clean env with no installs also works for me) If you dont want to install colorama                                                                              
-on your system, you can spin off an env and install it there, then delete it:)                                                                                            
-
-
-                                                                                                                                                                       
+Also, revelio uses the `colorama` python package, if you get `ModuleNotFound` error please use pip to install it, (i use python 3.11 and i didnt have to install it manually, running a clean env with no installs also works for me) If you dont want to install colorama on your system, you can spin off an env and install it there, then delete it:) 
                                           
 P.S Shoutout to Heath Adams for the idea!                                            
                                                                                                                                                                           
 
 ## Installation                                                                      
 
-Once you have all the above tools installed, Just copy the script to your current working directory.                                                                                                                   
+Once you have all the above tools installed, Just copy the script to your current working directory.                                 
 
 ```bash                                   
 git clone https://github.com/DanielIsaev/revelio; cd revelio
