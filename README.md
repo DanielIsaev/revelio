@@ -1,7 +1,7 @@
 # Revelio
 
 Revelio is a Python script which acts as a wrapper around a few tools used to enumerate a target website. 
-The benefit with using Revelio is that it uses multi-threading in order to run the tools concurrently, while saving the output in a structured directory layout.
+The benefit with using Revelio is that it utilizes multi-threading in order to run the tools concurrently, while saving the output in a structured directory layout.
                                                       
 
 ## Features
