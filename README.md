@@ -12,7 +12,7 @@ P.S Shoutout to Heath Adams for the idea!
 - Checks for potential subdomain takeovers.
 - Pulls archive data from the wayback machine for each subdomain.
 - Uses multi-threading for concurrency.
-- Saves the resulsts in a structured directory tree.
+- Saves the results in a structured directory tree.
 
 ## Integrated Tools
 
