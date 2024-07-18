@@ -12,7 +12,6 @@ import re
 try:
     domain = sys.argv[1]
 except IndexError:
-    print_banner()
     print(f'Usage: {sys.argv[0]} <domain>')
     sys.exit()
 
