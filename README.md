@@ -18,7 +18,7 @@ P.S Shoutout to Heath Adams for the idea!
 
 Revelio combines the following GO tools:                                                                                                                                  
 
--  [subfinder](https://github.com/projectdiscovery/subfinder) (requires GO V1.19 and higher)
+-  [subfinder](https://github.com/projectdiscovery/subfinder)
 -  [assetfinder](https://github.com/tomnomnom/assetfinder)
 -  [httprobe](https://github.com/tomnomnom/httprobe)
 -  [subjack](https://github.com/haccer/subjack)                                                                                                                       
