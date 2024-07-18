@@ -12,6 +12,7 @@ import re
 try:
     domain = sys.argv[1]
 except IndexError:
+    print_banner()
     print(f'Usage: {sys.argv[0]} <domain>')
     sys.exit()
 
@@ -24,14 +25,16 @@ signal.signal(signal.SIGINT, sigint_handler)
 colorama_init()
 
 # Print banner
-print('\n')
-print(f'{Fore.RED}@@@@@@@  @@@@@@@@ @@@  @@@ @@@@@@@@ @@@      @@@  @@@@@@')
-print(f'{Fore.RED}@@!  @@@ @@!      @@!  @@@ @@!      @@!      @@! @@!  @@@')
-print(f'{Fore.RED}@!@!!@!  @!!!:!   @!@  !@! @!!!:!   @!!      !!@ @!@  !@!')
-print(f'{Fore.RED}!!: :!!  !!:       !: .:!  !!:      !!:      !!: !!:  !!!')
-print(f'{Fore.RED} :   : : : :: :::    ::    : :: ::: : ::.: : :    : :. :') 
-print(f'{Fore.WHITE}\n')
+def print_banner():
+    print('\n')
+    print(f'{Fore.RED}@@@@@@@  @@@@@@@@ @@@  @@@ @@@@@@@@ @@@      @@@  @@@@@@')
+    print(f'{Fore.RED}@@!  @@@ @@!      @@!  @@@ @@!      @@!      @@! @@!  @@@')
+    print(f'{Fore.RED}@!@!!@!  @!!!:!   @!@  !@! @!!!:!   @!!      !!@ @!@  !@!')
+    print(f'{Fore.RED}!!: :!!  !!:       !: .:!  !!:      !!:      !!: !!:  !!!')
+    print(f'{Fore.RED} :   : : : :: :::    ::    : :: ::: : ::.: : :    : :. :') 
+    print(f'{Fore.WHITE}\n')
 
+print_banner()
 
 # Create the output directory tree
 print(f'{Fore.BLUE}[+] {Fore.WHITE}Bulding output directory layout')
@@ -58,8 +61,6 @@ if not os.path.exists(extensions_dir):
 parms_dir = os.path.join(wayback_dir, 'parameteres')
 if not os.path.exists(parms_dir):
     os.mkdir(parms_dir)
-
-print(f'{Fore.BLUE}[+] {Fore.WHITE}Loading functions')
 
 
 
@@ -143,9 +144,6 @@ def gowitness(url):
 
 
 # Create the data strucutres used by the above functions. 
-print(f'{Fore.BLUE}[+] {Fore.WHITE}Loading data structs')
-print('\n')
-
 extensions = {'js': [], 'html': [], 'json': [], 'php': [], 'aspx': [], 'txt': []}
 parameters = []
 archives = []
